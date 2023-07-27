@@ -24,6 +24,9 @@ public class StepDefs {
         Driver.getDriver().manage().window().maximize();
         Driver.getDriver().get("http://etsy.com");
 
+
+
+
     }
 
     @When("^I search for \"([^\"]*)\"$")
